@@ -1,10 +1,10 @@
 <?php
 include('conexion.php');
 session_start();
-//$id_usuario=$_SESSION['id_usuario'];
+
 $sql = "SELECT id, correo, password, nivel FROM usuarios ";
 $resultado = $con->query($sql);
-//where id!=$id_usuario
+
 ?>
 <div >
 

@@ -22,7 +22,7 @@ if ($result->num_rows > 0) {
 } else {
     echo "Error: datos de autenticación incorrectos.";
     ?>
-    <meta http-equiv="refresh" content="3;url=login.html">
+    <meta http-equiv="refresh" content="3;url=pagina.php">
     <?php
 }
 ?>

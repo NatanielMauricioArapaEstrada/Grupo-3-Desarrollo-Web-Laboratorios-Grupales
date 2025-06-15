@@ -3,3 +3,4 @@
 Arapa Estrada Nataniel Mauricio
 Espinoza Chiri Soledad Griselda
 Sanchez Lima Diego Franco
+Medrano Medrano Adrian Mijael

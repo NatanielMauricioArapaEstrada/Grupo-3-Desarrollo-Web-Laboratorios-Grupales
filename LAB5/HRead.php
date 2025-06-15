@@ -39,7 +39,7 @@ $result = $con->query($sql);?>
             <td><?php echo $fila['descripcion']; ?></td>
             <td><?php echo $fila['numero']; ?></td>
             <td><?php echo $fila['piso']; ?></td>
-            <td><?php echo ($fila['estado'] == 0) ? "Ocupado" : "Libre"; ?></td>
+            <td><?php echo ($fila['estado'] == 1) ? "Ocupado" : "Libre"; ?></td>
             <td><?php echo $fila['nombre']; ?></td>
             <td><?php echo $fila['superficie']; ?></td>
             <td><?php echo $fila['nrocamas']; ?></td>

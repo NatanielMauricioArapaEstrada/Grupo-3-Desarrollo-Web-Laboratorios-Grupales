@@ -23,8 +23,8 @@ $fila = $result->fetch_assoc();
         <input type="number" id="piso" name="piso" value="<?php echo $fila['piso']; ?>"><br>
         <label for="estado">Estado</label>
         <select id="estado" name="estado">
-            <option value="0" <?php echo ($fila['estado'] == 0) ? 'selected' : ''; ?>>Ocupado</option>
-            <option value="1" <?php echo ($fila['estado'] == 1) ? 'selected' : ''; ?>>Libre</option>
+            <option value="1" <?php echo ($fila['estado'] == 1) ? 'selected' : ''; ?>>Ocupado</option>
+            <option value="0" <?php echo ($fila['estado'] == 0) ? 'selected' : ''; ?>>Libre</option>
         </select><br>
         <label for="tipoHabitacion">Tipo de habitacion:</label>
         <select id="tipoHabitacion" name="tipoHabitacion" required>
